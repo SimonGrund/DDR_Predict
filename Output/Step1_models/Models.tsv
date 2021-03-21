@@ -1,0 +1,3 @@
+"Gene"	"Cohort"	"Train_fg"	"Train_bg"	"Test_fg"	"Test_bg"	"Formula"	"ROC"	"ROC_test"	"Sensitivity"	"Specificity"
+"KMT2D"	"Lymphoid"	14	104	7	53	"y ~ -0.88 +  (0.21)*non.clustered_del__._10Mb + (2.98)*non.clustered_inv__._10Mb "	0.632554945054945	0.401617250673854	0.714285714285714	0.721153846153846
+"CDKN2A"	"Pancreas"	11	172	5	89	"y ~ -14.88 +  (30.75)*ins + (-2.36)*clustered_inv_100Kb.1Mb + (-6.65)*non.clustered_inv_10.100Kb "	0.883720930232558	0.698876404494382	1	0.686046511627907

@@ -1,0 +1,2 @@
+"Gene"	"Cohort"	"Train_fg"	"Train_bg"	"Formula"	"ROC"	"Sensitivity"	"Specificity"	"p_val_study"	"p_val_test"
+"CDKN2A"	"Pancreas"	16	261	"y ~ 0.72 +  (1.29)*Signature.18 + (-1.70)*Signature.30 + (-1.17)*non.clustered_inv_10.100Kb "	"0.664750957854406"	"0.5"	"0.862068965517241"	0.0135370649423512	NA
