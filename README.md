@@ -3,7 +3,7 @@
 This is the GitHub repository for the paper "Pan-cancer association of DNA repair deficiencies with whole genome mutational patterns"
 
 # Data
-It is possible to run the analysis and all figures of the paper based on somatic variants of the publicly available PCAWG samples (https://dcc.icgc.org/releases/PCAWG/). We have included ClinVar annotations and gnomAD (v2.1.1) poopulatioon frequencies in the data folder. The CADD values however, is too large a file and we suggest that users obtain them for their set of variants thorugh the scoring system at https://cadd.gs.washington.edu/
+It is possible to run the analysis and all figures of the paper based on somatic variants of the publicly available PCAWG samples (https://dcc.icgc.org/releases/PCAWG/). We have included CADD (v1.6), ClinVar annotations and gnomAD (v2.1.1) populatioon frequencies in the data folder.
 
 ## Mutational patterns
 Signature contributions of single base substitutions are obtained from the supplementary information of the article "A practical framework and online tool for mutational signature analyses show inter-tissue variation and driver dependencies" by Degaspari et al. [1]. The number of indels and SVs are counted using a local installation of the Sig.tols.lib (https://github.com/Nik-Zainal-Group/signature.tools.lib). The combined set of features is made available in the Data folder.
